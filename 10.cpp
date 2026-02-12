@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int milesdriven = 375;
+// Global vars
+int milesdriven = 375; 
 int gallons = 15;
-int mpg = milesdriven/gallons;
+int mpg = milesdriven/gallons; // MPG equation
 
+// Code
 int main() {
-    cout << mpg;
+    cout << mpg; // Outputs the mpg
     cout << " Miles Per Gallon";
 }
